@@ -26,7 +26,7 @@
     margin-right: 10px ;
 }
 
-#nav-button{
+.nav-button{
     width: 100px;
     height: 50px;
     color: #226fe0;
@@ -37,8 +37,10 @@
     border: 1px solid white;
 }
 
-#nav-button:hover{
-    border: 1px solid #226fe0;
+.nav-button:hover{
+    background-color: #04244c;
+    color: white;
+    border-radius: 25px;
 }
 
 

@@ -149,7 +149,6 @@ h1{
   }
 
 #banner3{
-    height: 500px;
     display: flex;
     background-color: #041F32;
     flex-wrap: wrap;   
@@ -173,7 +172,16 @@ h1{
     width: 150px;
     height: 150px;
     margin: 10px;
+    margin-bottom: 40px;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
 }
+
+#banner3 .processImg img{
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+

@@ -2,6 +2,20 @@
     margin: 0;
 }
 
+h2, h3{
+    font-family: sans-serif;
+}
+
+h1{
+    color: white;
+    height: 20px;
+    width: 500px;
+    align-self: center;
+    align-content: center;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+
 #navbar{
     display: flex;
     background-color: white;
@@ -44,7 +58,6 @@
     border-radius: 25px;
 }
 
-
 #div2{
     width: 100px;
     height: 50px;
@@ -71,6 +84,7 @@
     height: 700px;
     background-image: url('./compvision.jpeg');
     display: flex;
+    background-color: #041F32;
 }
 
 #banner2{
@@ -78,6 +92,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 #banner2 h1{
@@ -95,19 +110,9 @@
 #banner2 img{
     min-width: 700px;
     object-fit: contain;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 40px;
-}
-
-h1{
-    color: white;
-    height: 20px;
-    width: 500px;
-    align-self: center;
-    align-content: center;
-    margin-left: 40px;
-    font-family: sans-serif;
 }
 
 .dropdown {
@@ -142,3 +147,33 @@ h1{
   .nav-button:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+#banner3{
+    height: 500px;
+    display: flex;
+    background-color: #041F32;
+    flex-wrap: wrap;   
+    justify-content: center;
+}
+
+
+#banner3 h1{
+    display: block;
+    width: 100%;
+    color: white;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#banner3 .imgcontainer img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

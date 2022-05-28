@@ -18,6 +18,7 @@ h1{
 
 #navbar{
     display: flex;
+    position: sticky;
     background-color: white;
     height: 65px;
     justify-content: center;

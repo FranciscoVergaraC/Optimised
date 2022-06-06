@@ -252,9 +252,9 @@ h1{
 
 form{
     background-color: #f1f1f1;
-    margin: 30px;
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 .firstinput {
@@ -307,6 +307,7 @@ label{
     background-color: #317eb8 ;    
     color: white;
     font-size: 18px;
+    justify-self: end;
 }
 
 #SubmitButton:hover{

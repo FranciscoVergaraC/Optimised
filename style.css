@@ -108,9 +108,10 @@ h1{
 #banner1{
     width: 100%;
     height: 700px;
-    background-image: url('./compvision.jpeg');
     display: flex;
     background-color: #041F32;
+    background-image: url('./compvision.jpeg');
+    background-repeat: no-repeat;
 }
 
 #banner2{
